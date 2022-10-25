@@ -21,8 +21,7 @@
 </head>
 
 
-<body data-base-href="../"
-      data-using-base-href="false">
+<body data-base-href="../" data-using-base-href="false">
 
 <div id="overlay-under-drawer"></div>
 
@@ -50,7 +49,7 @@
 
     
 <section class="desc markdown">
-  <p>Copyright (C) 2021 Intel Corporation
+  <p>Copyright (C) 2021-2022 Intel Corporation
 SPDX-License-Identifier: BSD-3-Clause</p>
 </section>
 
@@ -64,7 +63,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A two-input addition module. 
+  A two-input addition module.
 </dd>
 
         <dt id="And2Gate">
@@ -72,7 +71,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A two-input AND gate. 
+  A two-input AND gate.
 </dd>
 
         <dt id="AndUnary">
@@ -80,7 +79,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A unary AND gate. 
+  A unary AND gate.
 </dd>
 
         <dt id="ARShift">
@@ -88,7 +87,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  An arithmetic right-shift module. 
+  An arithmetic right-shift module.
 </dd>
 
         <dt id="BusSubset">
@@ -96,7 +95,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A <a href="../rohd/Module-class.html">Module</a> which gives access to a subset range of signals of the input. <a href="../rohd/BusSubset-class.html">[...]</a>
+  A <a href="../rohd/Module-class.html">Module</a> which gives access to a subset range of signals of the input.
 </dd>
 
         <dt id="Case">
@@ -104,7 +103,8 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A block of <a href="../rohd/CaseItem-class.html">CaseItem</a>s where only the one with a matching <a href="../rohd/CaseItem/value.html">CaseItem.value</a> is executed. <a href="../rohd/Case-class.html">[...]</a>
+  A block of <a href="../rohd/CaseItem-class.html">CaseItem</a>s where only the one with a matching <a href="../rohd/CaseItem/value.html">CaseItem.value</a>
+is executed.
 </dd>
 
         <dt id="CaseItem">
@@ -112,7 +112,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  Represents a single case within a <a href="../rohd/Case-class.html">Case</a> block. 
+  Represents a single case within a <a href="../rohd/Case-class.html">Case</a> block.
 </dd>
 
         <dt id="CaseZ">
@@ -120,7 +120,8 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A special version of <a href="../rohd/Case-class.html">Case</a> which can do wildcard matching via <code>z</code> in the expression. <a href="../rohd/CaseZ-class.html">[...]</a>
+  A special version of <a href="../rohd/Case-class.html">Case</a> which can do wildcard matching via <code>z</code> in
+the expression.
 </dd>
 
         <dt id="Combinational">
@@ -128,7 +129,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  Represents a block of combinational logic. <a href="../rohd/Combinational-class.html">[...]</a>
+  Represents a block of combinational logic.
 </dd>
 
         <dt id="Conditional">
@@ -136,7 +137,8 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  Represents an some logical assignments or actions that will only happen under certain conditions. 
+  Represents an some logical assignments or actions that will only happen
+under certain conditions.
 </dd>
 
         <dt id="ConditionalAssign">
@@ -144,7 +146,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  An assignment that only happens under certain conditions. <a href="../rohd/ConditionalAssign-class.html">[...]</a>
+  An assignment that only happens under certain conditions.
 </dd>
 
         <dt id="Const">
@@ -152,7 +154,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  Represents a <a href="../rohd/Logic-class.html">Logic</a> that never changes value. 
+  Represents a <a href="../rohd/Logic-class.html">Logic</a> that never changes value.
 </dd>
 
         <dt id="Divide">
@@ -160,7 +162,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A two-input divison module. 
+  A two-input divison module.
 </dd>
 
         <dt id="Else">
@@ -168,7 +170,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A conditional block to execute only if <a href="../rohd/Iff/condition.html">condition</a> is satisified. <a href="../rohd/Else-class.html">[...]</a>
+  A conditional block to execute only if <a href="../rohd/ElseIf/condition.html">condition</a> is satisified.
 </dd>
 
         <dt id="ElseIf">
@@ -176,7 +178,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A conditional block to execute only if <a href="../rohd/Iff/condition.html">condition</a> is satisified. <a href="../rohd/ElseIf-class.html">[...]</a>
+  A conditional block to execute only if <a href="../rohd/ElseIf/condition.html">condition</a> is satisified.
 </dd>
 
         <dt id="Equals">
@@ -184,15 +186,16 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A two-input equality comparison module. 
+  A two-input equality comparison module.
 </dd>
 
-        <dt id="ExternalModule">
-  <span class="name "><a href="../rohd/ExternalModule-class.html">ExternalModule</a></span> 
+        <dt id="ExternalSystemVerilogModule">
+  <span class="name "><a href="../rohd/ExternalSystemVerilogModule-class.html">ExternalSystemVerilogModule</a></span> 
 
 </dt>
 <dd>
-  Represents a <a href="../rohd/Module-class.html">Module</a> whose definition exists outside of this framework. <a href="../rohd/ExternalModule-class.html">[...]</a>
+  Represents a <a href="../rohd/Module-class.html">Module</a> whose definition exists outside of this framework
+in SystemVerilog.
 </dd>
 
         <dt id="FlipFlop">
@@ -200,7 +203,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  Represents a single flip-flop with no reset. 
+  Represents a single flip-flop with no reset.
 </dd>
 
         <dt id="GreaterThan">
@@ -208,7 +211,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A two-input comparison module for greater-than. 
+  A two-input comparison module for greater-than.
 </dd>
 
         <dt id="GreaterThanOrEqual">
@@ -216,7 +219,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A two-input comparison module for greater-than-or-equal-to. 
+  A two-input comparison module for greater-than-or-equal-to.
 </dd>
 
         <dt id="If">
@@ -224,7 +227,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  Represents a block of code to be conditionally executed, like <code>if</code>/<code>else</code>. 
+  Represents a block of code to be conditionally executed, like <code>if</code>/<code>else</code>.
 </dd>
 
         <dt id="IfBlock">
@@ -232,15 +235,8 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  Represents a chain of blocks of code to be conditionally executed, like <code>if</code>/<code>else if</code>/<code>else</code>. <a href="../rohd/IfBlock-class.html">[...]</a>
-</dd>
-
-        <dt id="Iff">
-  <span class="name "><a href="../rohd/Iff-class.html">Iff</a></span> 
-
-</dt>
-<dd>
-  A conditional block to execute only if <a href="../rohd/Iff/condition.html">condition</a> is satisified. <a href="../rohd/Iff-class.html">[...]</a>
+  Represents a chain of blocks of code to be conditionally executed, like
+<code>if</code>/<code>else if</code>/<code>else</code>.
 </dd>
 
         <dt id="Interface">
@@ -248,7 +244,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  Represents a logical interface to a <a href="../rohd/Module-class.html">Module</a>. <a href="../rohd/Interface-class.html">[...]</a>
+  Represents a logical interface to a <a href="../rohd/Module-class.html">Module</a>.
 </dd>
 
         <dt id="LessThan">
@@ -256,7 +252,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A two-input comparison module for less-than. 
+  A two-input comparison module for less-than.
 </dd>
 
         <dt id="LessThanOrEqual">
@@ -264,7 +260,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A two-input comparison module for less-than-or-equal-to. 
+  A two-input comparison module for less-than-or-equal-to.
 </dd>
 
         <dt id="Logic">
@@ -272,7 +268,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  Represents a logical signal of any width which can change values. 
+  Represents a logical signal of any width which can change values.
 </dd>
 
         <dt id="LogicValue">
@@ -280,7 +276,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  Represents a single logical 4-value bit (<code>0</code>, <code>1</code>, <code>x</code>, or <code>z</code>). 
+  An immutable 4-value representation of an arbitrary number of bits.
 </dd>
 
         <dt id="LogicValueChanged">
@@ -288,15 +284,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  Represents the event of a <a href="../rohd/Logic-class.html">Logic</a> changing value. 
-</dd>
-
-        <dt id="LogicValues">
-  <span class="name "><a href="../rohd/LogicValues-class.html">LogicValues</a></span> 
-
-</dt>
-<dd>
-  An immutable 4-value representation of an arbitrary number of bits. <a href="../rohd/LogicValues-class.html">[...]</a>
+  Represents the event of a <a href="../rohd/Logic-class.html">Logic</a> changing value.
 </dd>
 
         <dt id="LShift">
@@ -304,7 +292,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A logical left-shift module. 
+  A logical left-shift module.
 </dd>
 
         <dt id="Module">
@@ -312,7 +300,16 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  Represents a synthesizable hardware entity with clearly defined interface boundaries. <a href="../rohd/Module-class.html">[...]</a>
+  Represents a synthesizable hardware entity with clearly defined interface
+boundaries.
+</dd>
+
+        <dt id="Modulo">
+  <span class="name "><a href="../rohd/Modulo-class.html">Modulo</a></span> 
+
+</dt>
+<dd>
+  A two-input modulo module.
 </dd>
 
         <dt id="Multiply">
@@ -320,7 +317,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A two-input multiplication module. 
+  A two-input multiplication module.
 </dd>
 
         <dt id="Mux">
@@ -328,7 +325,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A mux (multiplexer) module. <a href="../rohd/Mux-class.html">[...]</a>
+  A mux (multiplexer) module.
 </dd>
 
         <dt id="NotGate">
@@ -336,7 +333,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A gate <a href="../rohd/Module-class.html">Module</a> that performs bit-wise inversion. 
+  A gate <a href="../rohd/Module-class.html">Module</a> that performs bit-wise inversion.
 </dd>
 
         <dt id="Or2Gate">
@@ -344,7 +341,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A two-input OR gate. 
+  A two-input OR gate.
 </dd>
 
         <dt id="OrUnary">
@@ -352,7 +349,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A unary OR gate. 
+  A unary OR gate.
 </dd>
 
         <dt id="Pipeline">
@@ -360,7 +357,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A simple pipeline, separating arbitrary combinational logic by flop stages. 
+  A simple pipeline, separating arbitrary combinational logic by flop stages.
 </dd>
 
         <dt id="PipelineStageInfo">
@@ -368,7 +365,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  Information and accessors associated with a <a href="../rohd/Pipeline-class.html">Pipeline</a> stage. 
+  Information and accessors associated with a <a href="../rohd/Pipeline-class.html">Pipeline</a> stage.
 </dd>
 
         <dt id="Port">
@@ -376,7 +373,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  An extension of <a href="../rohd/Logic-class.html">Logic</a> useful for <a href="../rohd/Interface-class.html">Interface</a> definitions. 
+  An extension of <a href="../rohd/Logic-class.html">Logic</a> useful for <a href="../rohd/Interface-class.html">Interface</a> definitions.
 </dd>
 
         <dt id="ReadyValidPipeline">
@@ -384,7 +381,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A pipeline that implements Ready/Valid protocol at each stage. 
+  A pipeline that implements Ready/Valid protocol at each stage.
 </dd>
 
         <dt id="RShift">
@@ -392,7 +389,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A logical right-shift module. 
+  A logical right-shift module.
 </dd>
 
         <dt id="Sequential">
@@ -400,7 +397,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  Represents a block of sequential logic. <a href="../rohd/Sequential-class.html">[...]</a>
+  Represents a block of sequential logic.
 </dd>
 
         <dt id="SimpleClockGenerator">
@@ -408,7 +405,8 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A very simple clock generator.  Generates a non-synthesizable SystemVerilog representation. 
+  A very simple clock generator.  Generates a non-synthesizable SystemVerilog
+representation.
 </dd>
 
         <dt id="Simulator">
@@ -416,7 +414,23 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A functional event-based static simulator for logic behavior. <a href="../rohd/Simulator-class.html">[...]</a>
+  A functional event-based static simulator for logic behavior.
+</dd>
+
+        <dt id="State">
+  <span class="name "><a href="../rohd/State-class.html">State</a><span class="signature">&lt;<wbr><span class="type-parameter">StateIdentifier</span>&gt;</span></span> 
+
+</dt>
+<dd>
+  Simple class to initialize each state of the FSM.
+</dd>
+
+        <dt id="StateMachine">
+  <span class="name "><a href="../rohd/StateMachine-class.html">StateMachine</a><span class="signature">&lt;<wbr><span class="type-parameter">StateIdentifier</span>&gt;</span></span> 
+
+</dt>
+<dd>
+  Simple class for FSM <a href="../rohd/StateMachine-class.html">StateMachine</a>.
 </dd>
 
         <dt id="Subtract">
@@ -424,7 +438,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A two-input subtraction module. 
+  A two-input subtraction module.
 </dd>
 
         <dt id="Swizzle">
@@ -432,7 +446,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A <a href="../rohd/Module-class.html">Module</a> that performs concatenation of signals into one bigger <a href="../rohd/Logic-class.html">Logic</a>. <a href="../rohd/Swizzle-class.html">[...]</a>
+  A <a href="../rohd/Module-class.html">Module</a> that performs concatenation of signals into one bigger <a href="../rohd/Logic-class.html">Logic</a>.
 </dd>
 
         <dt id="SynthBuilder">
@@ -440,7 +454,8 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A generic class which can convert a module into a generated output using a <a href="../rohd/Synthesizer-class.html">Synthesizer</a>. 
+  A generic class which can convert a module into a generated output using
+a <a href="../rohd/Synthesizer-class.html">Synthesizer</a>.
 </dd>
 
         <dt id="SynthesisResult">
@@ -448,7 +463,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  An object representing the output of a Synthesizer 
+  An object representing the output of a Synthesizer
 </dd>
 
         <dt id="Synthesizer">
@@ -456,7 +471,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  An object capable of converting a module into some new output format 
+  An object capable of converting a module into some new output format
 </dd>
 
         <dt id="SystemVerilogSynthesizer">
@@ -464,7 +479,8 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A <a href="../rohd/Synthesizer-class.html">Synthesizer</a> which generates equivalent SystemVerilog as the given <a href="../rohd/Module-class.html">Module</a>. <a href="../rohd/SystemVerilogSynthesizer-class.html">[...]</a>
+  A <a href="../rohd/Synthesizer-class.html">Synthesizer</a> which generates equivalent SystemVerilog as the
+given <a href="../rohd/Module-class.html">Module</a>.
 </dd>
 
         <dt id="WaveDumper">
@@ -472,7 +488,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A waveform dumper for simulations. <a href="../rohd/WaveDumper-class.html">[...]</a>
+  A waveform dumper for simulations.
 </dd>
 
         <dt id="Xor2Gate">
@@ -480,7 +496,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A two-input XOR gate. 
+  A two-input XOR gate.
 </dd>
 
         <dt id="XorUnary">
@@ -488,7 +504,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 
 </dt>
 <dd>
-  A unary XOR gate. 
+  A unary XOR gate.
 </dd>
 
       </dl>
@@ -504,7 +520,7 @@ SPDX-License-Identifier: BSD-3-Clause</p>
 </dt>
 <dd>
   Allows a <a href="../rohd/Module-class.html">Module</a> to define a custom implementation of SystemVerilog to be
-injected in generated output instead of instantiating a separate <code>module</code>. 
+injected in generated output instead of instantiating a separate <code>module</code>.
 </dd>
 
         <dt id="InlineSystemVerilog">
@@ -512,13 +528,37 @@ injected in generated output instead of instantiating a separate <code>module</c
 
 </dt>
 <dd>
-  Allows a <a href="../rohd/Module-class.html">Module</a> to define a special type of <a href="../rohd/CustomSystemVerilog-mixin.html">CustomSystemVerilog</a> which can
-be inlined within other SystemVerilog code. <a href="../rohd/InlineSystemVerilog-mixin.html">[...]</a>
+  Allows a <a href="../rohd/Module-class.html">Module</a> to define a special type of <a href="../rohd/CustomSystemVerilog-mixin.html">CustomSystemVerilog</a> which
+can be inlined within other SystemVerilog code.
 </dd>
 
       </dl>
     </section>
 
+    <section class="summary offset-anchor" id="extensions">
+      <h2>Extensions</h2>
+
+      <dl>
+        <dt id="LogicSwizzle">
+    <span class="name "><a href="../rohd/LogicSwizzle.html">LogicSwizzle</a></span> 
+
+</dt>
+<dd>
+    Allows lists of <a href="../rohd/Logic-class.html">Logic</a>s to be swizzled.
+</dd>
+
+
+        <dt id="LogicValueSwizzle">
+    <span class="name "><a href="../rohd/LogicValueSwizzle.html">LogicValueSwizzle</a></span> 
+
+</dt>
+<dd>
+    Allows lists of <a href="../rohd/LogicValue-class.html">LogicValue</a>s to be swizzled.
+</dd>
+
+
+      </dl>
+    </section>
 
 
 
@@ -527,43 +567,56 @@ be inlined within other SystemVerilog code. <a href="../rohd/InlineSystemVerilog
 
       <dl class="callables">
         <dt id="bin" class="callable">
-  <span class="name"><a href="../rohd/bin.html">bin</a></span><span class="signature">(<wbr><span class="parameter" id="bin-param-s"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.15.0/dart-core/String-class.html">String</a></span> <span class="parameter-name">s</span></span>)
-    <span class="returntype parameter">&#8594; <a href="https://api.dart.dev/stable/2.15.0/dart-core/int-class.html">int</a></span>
+  <span class="name"><a href="../rohd/bin.html">bin</a></span><span class="signature">(<wbr><span class="parameter" id="bin-param-s"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.18.3/dart-core/String-class.html">String</a></span> <span class="parameter-name">s</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.dart.dev/stable/2.18.3/dart-core/int-class.html">int</a></span>
   </span>
   
 
 </dt>
 <dd>
-  Converts a binary <a href="https://api.dart.dev/stable/2.15.0/dart-core/String-class.html">String</a> representation to a binary <a href="https://api.dart.dev/stable/2.15.0/dart-core/int-class.html">int</a>. <a href="../rohd/bin.html">[...]</a>
+  Converts a binary <a href="https://api.dart.dev/stable/2.18.3/dart-core/String-class.html">String</a> representation to a binary <a href="https://api.dart.dev/stable/2.18.3/dart-core/int-class.html">int</a>.
+  
+
+</dd>
+
+        <dt id="mux" class="callable">
+  <span class="name"><a href="../rohd/mux.html">mux</a></span><span class="signature">(<wbr><span class="parameter" id="mux-param-control"><span class="type-annotation"><a href="../rohd/Logic-class.html">Logic</a></span> <span class="parameter-name">control</span>, </span><span class="parameter" id="mux-param-d1"><span class="type-annotation"><a href="../rohd/Logic-class.html">Logic</a></span> <span class="parameter-name">d1</span>, </span><span class="parameter" id="mux-param-d0"><span class="type-annotation"><a href="../rohd/Logic-class.html">Logic</a></span> <span class="parameter-name">d0</span></span>)
+    <span class="returntype parameter">&#8594; <a href="../rohd/Logic-class.html">Logic</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Performs a multiplexer/ternary operation.
   
 
 </dd>
 
         <dt id="rswizzle" class="callable">
-  <span class="name"><a href="../rohd/rswizzle.html">rswizzle</a></span><span class="signature">(<wbr><span class="parameter" id="rswizzle-param-signals"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.15.0/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../rohd/Logic-class.html">Logic</a></span>&gt;</span></span> <span class="parameter-name">signals</span></span>)
+  <span class="name deprecated"><a class="deprecated" href="../rohd/rswizzle.html">rswizzle</a></span><span class="signature">(<wbr><span class="parameter" id="rswizzle-param-signals"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.18.3/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../rohd/Logic-class.html">Logic</a></span>&gt;</span></span> <span class="parameter-name">signals</span></span>)
     <span class="returntype parameter">&#8594; <a href="../rohd/Logic-class.html">Logic</a></span>
   </span>
   
 
 </dt>
 <dd>
-  Performs a concatenation operation on the list of signals, where index 0 of <code>signals</code> is
-the <em>least</em> significant bit(s). <a href="../rohd/rswizzle.html">[...]</a>
-  
+  Performs a concatenation operation on the list of signals, where index 0 of
+<code>signals</code> is the <em>least</em> significant bit(s).
+  <div class="features">@<a href="https://api.dart.dev/stable/2.18.3/dart-core/Deprecated-class.html">Deprecated</a>(&#39;Use `List&lt;Logic&gt;.rswizzle()` instead&#39;)</div>
 
 </dd>
 
         <dt id="swizzle" class="callable">
-  <span class="name"><a href="../rohd/swizzle.html">swizzle</a></span><span class="signature">(<wbr><span class="parameter" id="swizzle-param-signals"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.15.0/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../rohd/Logic-class.html">Logic</a></span>&gt;</span></span> <span class="parameter-name">signals</span></span>)
+  <span class="name deprecated"><a class="deprecated" href="../rohd/swizzle.html">swizzle</a></span><span class="signature">(<wbr><span class="parameter" id="swizzle-param-signals"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.18.3/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../rohd/Logic-class.html">Logic</a></span>&gt;</span></span> <span class="parameter-name">signals</span></span>)
     <span class="returntype parameter">&#8594; <a href="../rohd/Logic-class.html">Logic</a></span>
   </span>
   
 
 </dt>
 <dd>
-  Performs a concatenation operation on the list of signals, where index 0 of <code>signals</code> is
-the <em>most</em> significant bit(s). <a href="../rohd/swizzle.html">[...]</a>
-  
+  Performs a concatenation operation on the list of signals, where index 0 of
+<code>signals</code> is the <em>most</em> significant bit(s).
+  <div class="features">@<a href="https://api.dart.dev/stable/2.18.3/dart-core/Deprecated-class.html">Deprecated</a>(&#39;Use `List&lt;Logic&gt;.swizzle()` instead&#39;)</div>
 
 </dd>
 
@@ -579,7 +632,7 @@ the <em>most</em> significant bit(s). <a href="../rohd/swizzle.html">[...]</a>
 
 </dt>
 <dd>
-  Controls characteristics about <a href="../rohd/Case-class.html">Case</a> blocks. <a href="../rohd/ConditionalType.html">[...]</a>
+  Controls characteristics about <a href="../rohd/Case-class.html">Case</a> blocks.
 </dd>
 
         <dt id="SimulatorPhase">
@@ -587,7 +640,7 @@ the <em>most</em> significant bit(s). <a href="../rohd/swizzle.html">[...]</a>
 
 </dt>
 <dd>
-  An enum for the various phases of the <a href="../rohd/Simulator-class.html">Simulator</a>. 
+  An enum for the various phases of the <a href="../rohd/Simulator-class.html">Simulator</a>.
 </dd>
 
       </dl>
@@ -606,8 +659,23 @@ the <em>most</em> significant bit(s). <a href="../rohd/swizzle.html">[...]</a>
 
 </dt>
 <dd>
-   
-  <div class="features">@<a href="https://api.dart.dev/stable/2.15.0/dart-core/Deprecated-class.html">Deprecated</a>(&#39;Use WaveDumper instead&#39;)</div>
+  Deprecated: use <a href="../rohd/WaveDumper-class.html">WaveDumper</a> instead.
+  <div class="features">@<a href="https://api.dart.dev/stable/2.18.3/dart-core/Deprecated-class.html">Deprecated</a>(&#39;Use WaveDumper instead&#39;)</div>
+
+</dd>
+
+
+          
+  <dt id="ExternalModule" class="">
+  <span class="name deprecated"><a class="deprecated" href="../rohd/ExternalModule.html">ExternalModule</a></span>
+    = <a href="../rohd/ExternalSystemVerilogModule-class.html">ExternalSystemVerilogModule</a>
+  </span>
+  
+
+</dt>
+<dd>
+  Deprecated - Use <a href="../rohd/ExternalSystemVerilogModule-class.html">ExternalSystemVerilogModule</a> instead.
+  <div class="features">@<a href="https://api.dart.dev/stable/2.18.3/dart-core/Deprecated-class.html">Deprecated</a>(&#39;Use ExternalSystemVerilogModule instead.&#39;)</div>
 
 </dd>
 
@@ -621,8 +689,38 @@ the <em>most</em> significant bit(s). <a href="../rohd/swizzle.html">[...]</a>
 
 </dt>
 <dd>
-   
-  <div class="features">@<a href="https://api.dart.dev/stable/2.15.0/dart-core/Deprecated-class.html">Deprecated</a>(&#39;Use Sequential instead&#39;)</div>
+  Deprecated: use <a href="../rohd/Sequential-class.html">Sequential</a> instead.
+  <div class="features">@<a href="https://api.dart.dev/stable/2.18.3/dart-core/Deprecated-class.html">Deprecated</a>(&#39;Use Sequential instead&#39;)</div>
+
+</dd>
+
+
+          
+  <dt id="Iff" class="">
+  <span class="name"><a href="../rohd/Iff.html">Iff</a></span>
+    = <a href="../rohd/ElseIf-class.html">ElseIf</a>
+  </span>
+  
+
+</dt>
+<dd>
+  A conditional block to execute only if <code>condition</code> is satisified.
+  
+
+</dd>
+
+
+          
+  <dt id="LogicValues" class="">
+  <span class="name deprecated"><a class="deprecated" href="../rohd/LogicValues.html">LogicValues</a></span>
+    = <a href="../rohd/LogicValue-class.html">LogicValue</a>
+  </span>
+  
+
+</dt>
+<dd>
+  Deprecated: use <a href="../rohd/LogicValue-class.html">LogicValue</a> instead.
+  <div class="features">@<a href="https://api.dart.dev/stable/2.18.3/dart-core/Deprecated-class.html">Deprecated</a>(&#39;Use `LogicValue` instead.&#39; &#39;  `LogicValues` and `LogicValue` have been merged into one type.&#39;)</div>
 
 </dd>
 
@@ -674,22 +772,21 @@ the <em>most</em> significant bit(s). <a href="../rohd/swizzle.html">[...]</a>
   <li><a href="../rohd/Else-class.html">Else</a></li>
   <li><a href="../rohd/ElseIf-class.html">ElseIf</a></li>
   <li><a href="../rohd/Equals-class.html">Equals</a></li>
-  <li><a href="../rohd/ExternalModule-class.html">ExternalModule</a></li>
+  <li><a href="../rohd/ExternalSystemVerilogModule-class.html">ExternalSystemVerilogModule</a></li>
   <li><a href="../rohd/FlipFlop-class.html">FlipFlop</a></li>
   <li><a href="../rohd/GreaterThan-class.html">GreaterThan</a></li>
   <li><a href="../rohd/GreaterThanOrEqual-class.html">GreaterThanOrEqual</a></li>
   <li><a href="../rohd/If-class.html">If</a></li>
   <li><a href="../rohd/IfBlock-class.html">IfBlock</a></li>
-  <li><a href="../rohd/Iff-class.html">Iff</a></li>
   <li><a href="../rohd/Interface-class.html">Interface</a></li>
   <li><a href="../rohd/LessThan-class.html">LessThan</a></li>
   <li><a href="../rohd/LessThanOrEqual-class.html">LessThanOrEqual</a></li>
   <li><a href="../rohd/Logic-class.html">Logic</a></li>
   <li><a href="../rohd/LogicValue-class.html">LogicValue</a></li>
   <li><a href="../rohd/LogicValueChanged-class.html">LogicValueChanged</a></li>
-  <li><a href="../rohd/LogicValues-class.html">LogicValues</a></li>
   <li><a href="../rohd/LShift-class.html">LShift</a></li>
   <li><a href="../rohd/Module-class.html">Module</a></li>
+  <li><a href="../rohd/Modulo-class.html">Modulo</a></li>
   <li><a href="../rohd/Multiply-class.html">Multiply</a></li>
   <li><a href="../rohd/Mux-class.html">Mux</a></li>
   <li><a href="../rohd/NotGate-class.html">NotGate</a></li>
@@ -703,6 +800,8 @@ the <em>most</em> significant bit(s). <a href="../rohd/swizzle.html">[...]</a>
   <li><a href="../rohd/Sequential-class.html">Sequential</a></li>
   <li><a href="../rohd/SimpleClockGenerator-class.html">SimpleClockGenerator</a></li>
   <li><a href="../rohd/Simulator-class.html">Simulator</a></li>
+  <li><a href="../rohd/State-class.html">State</a></li>
+  <li><a href="../rohd/StateMachine-class.html">StateMachine</a></li>
   <li><a href="../rohd/Subtract-class.html">Subtract</a></li>
   <li><a href="../rohd/Swizzle-class.html">Swizzle</a></li>
   <li><a href="../rohd/SynthBuilder-class.html">SynthBuilder</a></li>
@@ -713,6 +812,9 @@ the <em>most</em> significant bit(s). <a href="../rohd/swizzle.html">[...]</a>
   <li><a href="../rohd/Xor2Gate-class.html">Xor2Gate</a></li>
   <li><a href="../rohd/XorUnary-class.html">XorUnary</a></li>
 
+  <li class="section-title"><a href="../rohd/rohd-library.html#extensions">Extensions</a></li>
+  <li><a href="../rohd/LogicSwizzle.html">LogicSwizzle</a></li>
+  <li><a href="../rohd/LogicValueSwizzle.html">LogicValueSwizzle</a></li>
 
   <li class="section-title"><a href="../rohd/rohd-library.html#mixins">Mixins</a></li>
   <li><a href="../rohd/CustomSystemVerilog-mixin.html">CustomSystemVerilog</a></li>
@@ -722,8 +824,9 @@ the <em>most</em> significant bit(s). <a href="../rohd/swizzle.html">[...]</a>
 
   <li class="section-title"><a href="../rohd/rohd-library.html#functions">Functions</a></li>
   <li><a href="../rohd/bin.html">bin</a></li>
-  <li><a href="../rohd/rswizzle.html">rswizzle</a></li>
-  <li><a href="../rohd/swizzle.html">swizzle</a></li>
+  <li><a href="../rohd/mux.html">mux</a></li>
+  <li><a class="deprecated" href="../rohd/rswizzle.html">rswizzle</a></li>
+  <li><a class="deprecated" href="../rohd/swizzle.html">swizzle</a></li>
 
   <li class="section-title"><a href="../rohd/rohd-library.html#enums">Enums</a></li>
   <li><a href="../rohd/ConditionalType.html">ConditionalType</a></li>
@@ -731,7 +834,10 @@ the <em>most</em> significant bit(s). <a href="../rohd/swizzle.html">[...]</a>
 
   <li class="section-title"><a href="../rohd/rohd-library.html#typedefs">Typedefs</a></li>
   <li><a class="deprecated" href="../rohd/Dumper.html">Dumper</a></li>
+  <li><a class="deprecated" href="../rohd/ExternalModule.html">ExternalModule</a></li>
   <li><a class="deprecated" href="../rohd/FF.html">FF</a></li>
+  <li><a href="../rohd/Iff.html">Iff</a></li>
+  <li><a class="deprecated" href="../rohd/LogicValues.html">LogicValues</a></li>
 
 </ol>
 
@@ -742,7 +848,7 @@ the <em>most</em> significant bit(s). <a href="../rohd/swizzle.html">[...]</a>
 <footer>
   <span class="no-break">
     rohd
-      0.1.2
+      0.4.0
   </span>
 
   
@@ -751,7 +857,7 @@ the <em>most</em> significant bit(s). <a href="../rohd/swizzle.html">[...]</a>
 
 
 <script src="../static-assets/highlight.pack.js?v1"></script>
-<script src="../static-assets/script.js?v1"></script>
+<script src="../static-assets/docs.dart.js"></script>
 
 
 
